@@ -55,18 +55,15 @@ end
 
 desc "Run puppet tests in tests folder"
 task :puppet_tests do
-  Rake::FileList["tests/*.pp"].each {|file|
+  Rake::FileList["tests/*.pp"].each do |file|
     system("puppet apply #{file}")
-  }
+  end
+end
 
 desc "Run syntax, lint, and spec tests."
 task :test => [
   :metadata_lint,
-  :syntax,
-  :lint,
   :rubocop,
   :spec,
   :puppet_tests,
 ]
-
-end

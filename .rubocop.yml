@@ -35,7 +35,7 @@ Lint/LiteralInInterpolation:
   Enabled: true
 
 Style/RedundantReturn:
-  Enabled: true
+  Enabled: false
 
 Lint/AmbiguousOperator:
   Enabled: true
