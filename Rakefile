@@ -56,7 +56,7 @@ end
 desc "Run puppet tests in tests folder"
 task :puppet_tests do
   Rake::FileList["tests/*.pp"].each do |file|
-    system("puppet apply #{file}")
+    system("puppet apply --modulepath=$(pwd)/../ #{file}")
   end
 end
 
