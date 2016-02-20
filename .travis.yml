@@ -8,7 +8,6 @@ rvm:
   - 2.1.8
   - 2.2.4
 script:
-  - puppet config set modulepath $(pwd)/../
   - bundle exec rake test
 env:
   - PUPPET_GEM_VERSION="~> 4.3.2"
