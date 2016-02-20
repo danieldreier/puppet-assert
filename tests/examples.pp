@@ -18,3 +18,5 @@ is_odd(2).assert::false
     is_odd($n)
   }
 }
+
+assert::equal((2 + 2),4)

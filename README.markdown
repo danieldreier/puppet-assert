@@ -75,8 +75,23 @@ is_odd(2).assert::false
 ### assert::equal(Any, Any)
 Return true if both parameters are equal, or return an error if the values are not equal.
 
+**example**: using `assert::equal`:
+```puppet
+assert::equal('example', 'example')
+'example'.assert::equal('example')
+assert::equal((2 + 2),4)
+```
+
 ### assert::not_equal(Any, Any)
 Return true if both parameters are not equal, and return an error if the values are equal.
+
+**example**: using `assert::not_equal`:
+```puppet
+assert::not_equal(1, 2)
+assert::not_equal(true, false)
+true.assert::not_equal(false)
+'fizz'.assert::not_equal('buzz')
+```
 
 ### assert::true
 If given a single boolean parameter, `assert::true` will raise an error if the parameter value is false, and will return true if the parameter value is true.
