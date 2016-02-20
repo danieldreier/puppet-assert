@@ -1,4 +1,5 @@
 #### Puppet Assert Functions
+[![Build Status](https://travis-ci.org/danieldreier/puppet-assert.svg?branch=master)](https://travis-ci.org/danieldreier/puppet-assert)
 
 1. [Overview](#overview)
 2. [Description](#description)
