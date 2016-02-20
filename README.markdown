@@ -1,25 +1,21 @@
 #### Puppet Assert Functions
 
 1. [Overview](#overview)
-2. [Module Description - What the module does and why it is useful](#module-description)
+2. [Description](#description)
 3. [Setup - The basics of getting started with assert](#setup)
-    * [What assert affects](#what-assert-affects)
-    * [Setup requirements](#setup-requirements)
-    * [Beginning with assert](#beginning-with-assert)
+    * [Beginning with assert](#getting-started)
 4. [Usage - Configuration options and additional functionality](#usage)
-5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
-5. [Limitations - OS compatibility, etc.](#limitations)
-6. [Development - Guide for contributing to the module](#development)
+5. [Development - Guide for contributing to the module](#development)
 
 ## Overview
 
 Puppet functions to make assertions that fail the compile if they're not met.
 
-## Module Description
+## Description
 
 This module provides several functions intended for testing other puppet functions. If you're writing puppet functions without side effects, this is a simpler way to write tests than using rspec-puppet. The intent is to provide what amounts to syntactic sugar for writing simple tests in Puppet.
 
-### Beginning with assert
+### Getting Started
 
 To get started, you can test simple puppet expressions. Put the following in a file and run it using `puppet apply`:
 
