@@ -1,13 +1,15 @@
 {
   "name": "danieldreier-assert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Daniel Dreier",
   "summary": "Puppet 4 functions for making assertions, to support in-language testing",
   "license": "Apache-2.0",
   "source": "https://github.com/danieldreier/puppet-assert",
   "project_page": "https://github.com/danieldreier/puppet-assert",
   "issues_url": "https://github.com/danieldreier/puppet-assert/issues",
-  "dependencies": [],
+  "dependencies": [
+
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
