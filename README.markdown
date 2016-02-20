@@ -3,10 +3,9 @@
 
 1. [Overview](#overview)
 2. [Description](#description)
-3. [Setup - The basics of getting started with assert](#setup)
-    * [Beginning with assert](#getting-started)
-4. [Usage - Configuration options and additional functionality](#usage)
-5. [Development - Guide for contributing to the module](#development)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Development](#development)
 
 ## Overview
 
