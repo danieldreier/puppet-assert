@@ -53,17 +53,9 @@ task :contributors do
   system("git log --format='%aN' | sort -u > CONTRIBUTORS")
 end
 
-desc "Run puppet tests in tests folder"
-task :puppet_tests do
-  Rake::FileList["tests/*.pp"].each do |file|
-    system("puppet apply --modulepath=$(pwd)/../ #{file}")
-  end
-end
-
 desc "Run syntax, lint, and spec tests."
 task :test => [
   :metadata_lint,
   :rubocop,
   :spec,
-  :puppet_tests,
 ]
