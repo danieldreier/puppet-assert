@@ -1,6 +1,6 @@
 {
   "name": "danieldreier-assert",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Daniel Dreier",
   "summary": "Puppet 4 functions for making assertions, to support in-language testing",
   "license": "Apache-2.0",
